@@ -1,0 +1,121 @@
+#body1{
+    background-color: white;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+#td {
+    width: 50%;
+}
+
+.search_icon {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 5px 5px;
+    background-size: 35px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+footer{
+background-color: #121214;
+  color:white;
+  padding:5px;
+  font-size:0.75em;
+  text-align:center;
+  
+}
+.navbar1 {
+display: inline-block;
+white-space: nowrap;
+width:100%;
+position:absolute;
+margin-left:25%;
+margin-top:30px;
+}
+.navbar1-default {
+background-color: #fff;
+border-color: #fff;
+}
+.brand-name {
+ font-family: 'Josefin Slab', serif;
+ font-size: 47px;
+ font-weight: bold;
+ color: #444;
+ text-decoration: none;
+}
+
+.nav1-container {
+padding-top: 8px;
+}
+
+.navbar1-custom {
+    font-size: 20px;
+    background-color: #FFF;
+}
+
+#img{
+    margin-left: 20%;
+
+
+}
