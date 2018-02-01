@@ -1,3 +1,6 @@
+<?php
+include("../controller/pages_data.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -185,6 +188,13 @@
   </div>
 </div>
 </nav>
+<div>
+<?php
+  get_vismis_desc();
+
+?>
+</div>
+
 
 </body>
 </html>

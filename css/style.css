@@ -119,3 +119,9 @@ padding-top: 8px;
 
 
 }
+
+#desc{
+    border-style: double;
+    border: #3b5998;
+    margin-left: 10px;
+}

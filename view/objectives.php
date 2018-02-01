@@ -1,8 +1,15 @@
+<?php
+include("../controller/pages_data.php");
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
 
 <link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/sidebar.css">
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.js">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -159,12 +166,37 @@
   </div>
 </nav>
 
-<br>
-<footer>
+<nav class="navbar navbar-default sidebar" role="navigation">
+  <div class="container-fluid">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>      
+  </div>
+  <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li ><a href="#">Home <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+      <li>
+        <li class="active"><a href="#">About <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+      </li>          
+      <li ><a href="#">History <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>        
+      <li ><a href="#">Vision & Mission<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+      <li ><a href="#">Objectives<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+      <li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
 
-        &copy; Copyright 2017 by ABASYN UNIVERSITY ISLAMABAD CAMPUS. All Rights Reserved.
+    </ul>
+  </div>
+</div>
+</nav>
+<div>
+<?php
+  get_objectives_desc();
 
-</footer>
+?>
+</div>
 
 </body>
 </html>
