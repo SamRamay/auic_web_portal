@@ -1,7 +1,5 @@
 <?php
 include("../controller/pages_data.php");
-
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -190,12 +188,17 @@ include("../controller/pages_data.php");
   </div>
 </div>
 </nav>
-<div>
+
+<section>
+  <div class="container-fluid">
+  <p>
 <?php
   get_about_desc();
 
 ?>
+</p>
 </div>
+</section>
 
 
 </body>

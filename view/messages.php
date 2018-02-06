@@ -53,60 +53,60 @@ include("../controller/pages_data.php");
           <a href="../index.html" class="dropdown-toggle" data-toggle="dropdown">Home <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a href="vision_mission.html">Vision & Mission</a></li>
-            <li><a href="objectives.html">Objectives</a></li>
-            <li><a href="messages.html">Messages</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="history.php">History</a></li>
+            <li><a href="vision_mission.php">Vision & Mission</a></li>
+            <li><a href="objectives.php">Objectives</a></li>
+            <li><a href="messages.php">Messages</a></li>
 
           </ul>        
         <li class="dropdown">
           <a href="" class="dropdown-toggle" data-toggle="dropdown">Academic Programs <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="undergraduate.html">Undergraduate</a></li>
-            <li><a href="graduate.html">Graduate</a></li>
-            <li><a href="departments.html">Departments</a></li>
-            <li><a href="rules_policies.html">Rules & Policies</a></li>
+            <li><a href="undergraduate.php">Undergraduate</a></li>
+            <li><a href="graduate.php">Graduate</a></li>
+            <li><a href="departments.php">Departments</a></li>
+            <li><a href="rules_policies.php">Rules & Policies</a></li>
           </ul>        
 
         <li class="dropdown">
           <a href="" class="dropdown-toggle" data-toggle="dropdown">Admission & Aids <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="admission_overview.html">Admission Overview</a></li>
-            <li><a href="financial_aid.html">Financial Aid</a></li>
-            <li><a href="scholarship.html">Scholarships</a></li>
-            <li><a href="fee_structure.html">Fee Structure</a></li>
-            <li><a href="admission_procedure.html">Admission Procedure</a></li>
+            <li><a href="admission_overview.php">Admission Overview</a></li>
+            <li><a href="financial_aid.php">Financial Aid</a></li>
+            <li><a href="scholarship.php">Scholarships</a></li>
+            <li><a href="fee_structure.php">Fee Structure</a></li>
+            <li><a href="admission_procedure.php">Admission Procedure</a></li>
           </ul>
         </li>
 
           <li class="dropdown">
             <a href="" class="dropdown-toggle" data-toggle="dropdown">Faculty <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="d_electrical.html">Department of Electrical Engineering</a></li>
-              <li><a href="d_computing.html">Department of Computing & Technology</a></li>
-              <li><a href="d_civil.html">Department of Civil Engineering</a></li>
-              <li><a href="d_management.html">Department of Management Sciences</a></li>
-              <li><a href="d_life.html">Department of Life Sciences</a></li>
+              <li><a href="d_electrical.php">Department of Electrical Engineering</a></li>
+              <li><a href="d_computing.php">Department of Computing & Technology</a></li>
+              <li><a href="d_civil.php">Department of Civil Engineering</a></li>
+              <li><a href="d_management.php">Department of Management Sciences</a></li>
+              <li><a href="d_life.php">Department of Life Sciences</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
             <a href="" class="dropdown-toggle" data-toggle="dropdown">Research <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="publications.html">Publications</a></li>
-              <li><a href="intl_conferences.html">Abasyn Intl Conference</a></li>
-              <li><a href="journal.html">Journal of Social Sciences</a></li>
+              <li><a href="projects.php">Projects</a></li>
+              <li><a href="publications.php">Publications</a></li>
+              <li><a href="intl_conferences.php">Abasyn Intl Conference</a></li>
+              <li><a href="journal.php">Journal of Social Sciences</a></li>
             </ul>
           </li>
           
           <li class="dropdown">
             <a href="" class="dropdown-toggle" data-toggle="dropdown">Student <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="activities_clubs.html">Activities & Clubs</a></li>
-              <li><a href="student_handbook.html">Student Handbook</a></li>
-              <li><a href="digital_library.html">Digital Library</a></li>
+              <li><a href="activities_clubs.php">Activities & Clubs</a></li>
+              <li><a href="student_handbook.php">Student Handbook</a></li>
+              <li><a href="digital_library.php">Digital Library</a></li>
               <li><a href="">Learning Management System</a></li>
             </ul>
           </li>
@@ -114,10 +114,10 @@ include("../controller/pages_data.php");
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Center of M & E <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="about_center.html">About the Center</a></li>
-              <li><a href="obe_auic.html">OBE at AUIC</a></li>
-              <li><a href="software_system.html">Software System</a></li>
-              <li><a href="research_analysis.html">Research And Analysis</a></li>
+              <li><a href="about_center.php">About the Center</a></li>
+              <li><a href="obe_auic.php">OBE at AUIC</a></li>
+              <li><a href="software_system.php">Software System</a></li>
+              <li><a href="research_analysis.php">Research And Analysis</a></li>
             </ul>
           </li>
       </ul>
@@ -178,26 +178,29 @@ include("../controller/pages_data.php");
   </div>
   <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li ><a href="#">Home <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+      <li ><a href="../index.html">Home <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
       <li>
-        <li class="active"><a href="#">About <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+        <li ><a href="about.php">About <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
       </li>          
-      <li ><a href="#">History <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>        
-      <li ><a href="#">Vision & Mission<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
-      <li ><a href="#">Objectives<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
-      <li ><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+      <li ><a href="history.php">History <span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>        
+      <li ><a href="vision_mission.php">Vision & Mission<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+      <li ><a href="objectives.php">Objectives<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
+      <li class="active"><a href="messages.php">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-hand-right"></span></a></li>
 
     </ul>
   </div>
 </div>
 </nav>
 
+
+<section>
 <div>
 <?php
   get_messages_desc();
 
 ?>
 </div>
+</section>
 
 </body>
 </html>

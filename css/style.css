@@ -53,6 +53,13 @@
     }
 }
 
+
+p {
+    margin: auto;
+    font-style: italic;
+    text-align: justify;
+}
+
 #td {
     width: 50%;
 }
@@ -118,10 +125,4 @@ padding-top: 8px;
     margin-left: 20%;
 
 
-}
-
-#desc{
-    border-style: double;
-    border: #3b5998;
-    margin-left: 10px;
 }
